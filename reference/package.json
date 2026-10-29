@@ -1,0 +1,13 @@
+{
+  "name": "rainfrog-public-id-reference",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test public-id.test.js",
+    "benchmark": "node benchmark.js"
+  },
+  "license": "MIT"
+}

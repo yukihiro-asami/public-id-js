@@ -1,0 +1,257 @@
+{
+  "provenance": "Generated with Python standard-library HMAC-SHA-256 (HKDF Extract + first Expand block) and openssl enc -aes-128-ecb -nopad; checked by Node tests through WebCrypto AES-CBC first block with zero IV. These API paths may share an underlying cryptographic library.",
+  "vectors": [
+    {
+      "info": "creator-1/roster/customer",
+      "id": "0",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "00000000000000000000000000000000",
+      "publicId": "91fbe067e6f43eb0bd573c80306773b6"
+    },
+    {
+      "info": "creator-1/roster/customer",
+      "id": "1",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "00000000000000000000000000000001",
+      "publicId": "c2180941b10cf7219b3f18dac93a82fb"
+    },
+    {
+      "info": "creator-1/roster/customer",
+      "id": "255",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "000000000000000000000000000000ff",
+      "publicId": "1b1cba5aa52fe1a5d4d7ca6353140335"
+    },
+    {
+      "info": "creator-1/roster/customer",
+      "id": "256",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "00000000000000000000000000000100",
+      "publicId": "876d33bdfd65fa11a3d55bc377d52a52"
+    },
+    {
+      "info": "creator-1/roster/customer",
+      "id": "123456789",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "000000000000000000000000075bcd15",
+      "publicId": "d6a23c328a2b1c27012aaca9c341fb6f"
+    },
+    {
+      "info": "creator-1/roster/customer",
+      "id": "9007199254740991",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "0000000000000000001fffffffffffff",
+      "publicId": "1171b0d7effdd3565e6efa0d735cb978"
+    },
+    {
+      "info": "creator-1/roster/customer",
+      "id": "9007199254740992",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "00000000000000000020000000000000",
+      "publicId": "c4ef20e2cce011f03eb5b9e4f0770363"
+    },
+    {
+      "info": "creator-1/roster/customer",
+      "id": "9007199254740993",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "00000000000000000020000000000001",
+      "publicId": "b2fd497f00299aec907d5bbd51403265"
+    },
+    {
+      "info": "creator-1/roster/customer",
+      "id": "9223372036854775807",
+      "keyHex": "f53fe955c8c75df1c9a588accd7f3696",
+      "blockHex": "00000000000000007fffffffffffffff",
+      "publicId": "ae573e4f5fcee23cfc2fdde1626c2b54"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "0",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "00000000000000000000000000000000",
+      "publicId": "c77bc66c0c18e2947c8022197163940d"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "1",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "00000000000000000000000000000001",
+      "publicId": "81ef817f37d5b9a020f88c650cd2ed93"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "255",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "000000000000000000000000000000ff",
+      "publicId": "e45623f261d8316f05acade600968800"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "256",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "00000000000000000000000000000100",
+      "publicId": "9a8b73cbb51523b91ecc4b35ce3f0694"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "123456789",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "000000000000000000000000075bcd15",
+      "publicId": "1ab8ad643e3600281d7206fffa380083"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "9007199254740991",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "0000000000000000001fffffffffffff",
+      "publicId": "b42610430c7b2ed7a76c739d5738120d"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "9007199254740992",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "00000000000000000020000000000000",
+      "publicId": "6a4595a00d7b33f34150280db312fdab"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "9007199254740993",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "00000000000000000020000000000001",
+      "publicId": "70edf8bf7002b068551411bf2b0d201e"
+    },
+    {
+      "info": "creator-1/roster/course",
+      "id": "9223372036854775807",
+      "keyHex": "e68e04d4be322d5bf83305497de81c96",
+      "blockHex": "00000000000000007fffffffffffffff",
+      "publicId": "a50a825c7378718e134f303795a748eb"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "0",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "00000000000000000000000000000000",
+      "publicId": "6f0546a837554f5c726ee72321c37d81"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "1",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "00000000000000000000000000000001",
+      "publicId": "641ac454eef0d638ae924f0789ec7395"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "255",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "000000000000000000000000000000ff",
+      "publicId": "380f0e4901cb817489212020a3aed458"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "256",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "00000000000000000000000000000100",
+      "publicId": "d221d1c5067f6158f666a87df4c835c6"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "123456789",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "000000000000000000000000075bcd15",
+      "publicId": "cca3814124afb2502a56e0f30b31a04b"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "9007199254740991",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "0000000000000000001fffffffffffff",
+      "publicId": "484f4722945cf501ea30b15c23ba5127"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "9007199254740992",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "00000000000000000020000000000000",
+      "publicId": "49c8a1810cff3ad3e8851721d45a0a01"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "9007199254740993",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "00000000000000000020000000000001",
+      "publicId": "101bceb49c4b9e4dd06f7905a9158629"
+    },
+    {
+      "info": "受講者/名簿",
+      "id": "9223372036854775807",
+      "keyHex": "1037cc19fcab2cbc2625bc4f0567c40d",
+      "blockHex": "00000000000000007fffffffffffffff",
+      "publicId": "8fabc11e4723a8791233c4d9eb6ef29c"
+    },
+    {
+      "info": " customer ",
+      "id": "0",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "00000000000000000000000000000000",
+      "publicId": "0c8964f838ffab66184aa95429a165dd"
+    },
+    {
+      "info": " customer ",
+      "id": "1",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "00000000000000000000000000000001",
+      "publicId": "99baffb76837b661b20f7ff2140b697f"
+    },
+    {
+      "info": " customer ",
+      "id": "255",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "000000000000000000000000000000ff",
+      "publicId": "3c9b84976b1bfa824b993182a513298d"
+    },
+    {
+      "info": " customer ",
+      "id": "256",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "00000000000000000000000000000100",
+      "publicId": "35916d7e8ffd695099e38b411fcf61ce"
+    },
+    {
+      "info": " customer ",
+      "id": "123456789",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "000000000000000000000000075bcd15",
+      "publicId": "f72da4b98257a8a50bcc2abd9fa6ccdb"
+    },
+    {
+      "info": " customer ",
+      "id": "9007199254740991",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "0000000000000000001fffffffffffff",
+      "publicId": "cada166c56354c76bfd4109a4e76b64c"
+    },
+    {
+      "info": " customer ",
+      "id": "9007199254740992",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "00000000000000000020000000000000",
+      "publicId": "9342a665aec154e9939f18ba05aadf12"
+    },
+    {
+      "info": " customer ",
+      "id": "9007199254740993",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "00000000000000000020000000000001",
+      "publicId": "fdcfd2ba11e8bacf0d38495a8e015c92"
+    },
+    {
+      "info": " customer ",
+      "id": "9223372036854775807",
+      "keyHex": "2b07f53158d77109b8abcb5d6710531b",
+      "blockHex": "00000000000000007fffffffffffffff",
+      "publicId": "c53613ff2a46e8ac998e23b73f8a3a34"
+    }
+  ]
+}

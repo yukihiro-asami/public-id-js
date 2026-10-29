@@ -1,0 +1,54 @@
+{
+  "measuredAt": "2026-10-29T21:23:34.586Z",
+  "environment": {
+    "node": "v24.22.1",
+    "openssl": "3.5.9",
+    "platform": "darwin",
+    "arch": "arm64",
+    "osRelease": "25.3.0",
+    "cpu": "Apple M1"
+  },
+  "method": "2000 warmup operations per case; median of 5 rounds; encode/decode include validation, cipher creation and byte/hex conversion; no DB or network; sequential local microbenchmark.",
+  "initialization": {
+    "iterations": 10000,
+    "rounds": 5,
+    "milliseconds": [
+      36.014459,
+      34.044584,
+      33.58,
+      34.50466700000001,
+      33.81399999999999
+    ],
+    "medianMs": 34.044584,
+    "microsecondsPerOperation": 3.4044584,
+    "operationsPerSecond": 293732.47738906136
+  },
+  "encode": {
+    "iterations": 100000,
+    "rounds": 5,
+    "milliseconds": [
+      225.701459,
+      211.952333,
+      233.30887499999994,
+      276.124917,
+      199.33120800000006
+    ],
+    "medianMs": 225.701459,
+    "microsecondsPerOperation": 2.25701459,
+    "operationsPerSecond": 443063.15272866713
+  },
+  "decode": {
+    "iterations": 100000,
+    "rounds": 5,
+    "milliseconds": [
+      221.61525000000006,
+      219.64404100000002,
+      215.549125,
+      213.32933400000024,
+      211.1205
+    ],
+    "medianMs": 215.549125,
+    "microsecondsPerOperation": 2.15549125,
+    "operationsPerSecond": 463931.3659937149
+  }
+}
